@@ -1,4 +1,4 @@
-package backupcompressed.application;
+package backupcompressed.application.apirest;
 
 import backupcompressed.domain.backup.usecase.BackupUseCase;
 import lombok.RequiredArgsConstructor;

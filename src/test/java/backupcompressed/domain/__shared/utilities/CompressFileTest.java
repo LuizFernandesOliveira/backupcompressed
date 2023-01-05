@@ -1,6 +1,5 @@
-package backupcompressed.utilities;
+package backupcompressed.domain.__shared.utilities;
 
-import backupcompressed.domain.__shared.utilities.CompressFile;
 import backupcompressed.domain.__shared.valueobject.File;
 import org.junit.jupiter.api.Test;
 
@@ -24,8 +23,8 @@ class CompressFileTest {
 
   private File buildFile() {
     return File.builder()
-      .name("File Name")
-      .content(new ByteArrayInputStream(new byte[]{1, 2, 3}))
-      .build();
+        .name("File Name")
+        .content(new ByteArrayInputStream(new byte[]{1, 2, 3}))
+        .build();
   }
 }
