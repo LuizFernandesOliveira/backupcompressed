@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  application:
+    image: "backup-compressed"
+    build:
+      context: .
+    environment:
+      - AWS_ACCESS_KEY=${AWS_ACCESS_KEY}
+      - AWS_SECRET_KEY=${AWS_SECRET_KEY}
+    ports:
+      - "8080:8080"
