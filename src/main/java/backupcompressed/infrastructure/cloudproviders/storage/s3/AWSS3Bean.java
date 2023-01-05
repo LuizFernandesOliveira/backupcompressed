@@ -1,4 +1,4 @@
-package backupcompressed.infrastructure.configuration;
+package backupcompressed.infrastructure.cloudproviders.storage.s3;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;

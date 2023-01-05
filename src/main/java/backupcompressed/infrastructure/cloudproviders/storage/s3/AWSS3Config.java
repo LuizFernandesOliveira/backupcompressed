@@ -1,4 +1,4 @@
-package backupcompressed.infrastructure.configuration;
+package backupcompressed.infrastructure.cloudproviders.storage.s3;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,8 +1,7 @@
-package backupcompressed.infrastructure.cloudproviders.storage;
+package backupcompressed.infrastructure.cloudproviders.storage.s3;
 
 import backupcompressed.domain.__shared.service.AWSS3Service;
 import backupcompressed.domain.__shared.valueobject.File;
-import backupcompressed.infrastructure.configuration.AWSS3Config;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
