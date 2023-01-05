@@ -8,8 +8,8 @@
 
 ### 1) Adicionar as variáveis de ambiente
 ```shell
-AWS_ACCESS_KEY=sua_access_key_da_aws
-AWS_SECRET_KEY=sua_secret_key_da_aws
+export AWS_ACCESS_KEY=sua_access_key_da_aws
+export AWS_SECRET_KEY=sua_secret_key_da_aws
 ```
 ### 2) iniciando o projeto
 ```shell
